@@ -91,7 +91,7 @@ st.markdown('<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootst
 
 
 
-df_air=pd.read_csv('/Users/sahanamanjunath/Downloads/AQI and Lat Long of Countries.csv')
+df_air=pd.read_csv('AQI and Lat Long of Countries.csv')
 
 tabs = st.tabs(["About","Check Air Quality for current location",  "Check Air Quality for any desired location", "Check Global Air Quality data","Researcher Login","Bio"])
 
@@ -99,7 +99,7 @@ with tabs[0]:
     col1,col2=st.columns([4,1])
     with col1:
         st.markdown("<p style='text-align:justify;'>This segment furnishes comprehensive details about our website, addressing queries regarding its purpose, navigation guidelines, and clarification of essential terminology. Furthermore, users are offered a preview of our Air Quality data.</p>", unsafe_allow_html=True)
-    image = Image.open('/Users/sahanamanjunath/Downloads/girl-transformed.jpg')
+    image = Image.open('girl-transformed.jpg')
     st.image(image, caption='Breathing Innovation: Empowering Lives with Precision Air Quality Analysis.')
     col1,col2=st.columns([4,1])
     with col1:
@@ -239,7 +239,7 @@ with tabs[1]:
                         meter_placeholder.pyplot(m.draw_meter(0.35,-0.19))
 
                 with col7:
-                    image = Image.open('/Users/sahanamanjunath/Downloads/aqi_table2.jpg')
+                    image = Image.open('aqi_table2.jpg')
                     st.image(image,width=350)
                 st.markdown('<p>To learn more about the pollutants, please visit this <a href="https://www.epa.gov/air-quality-management-process/managing-air-quality-air-pollutant-types#:~:text=They%20are%20particulate%20matter%20(often,environment%2C%20and%20cause%20property%20damage." target="_blank">website</a></p>', unsafe_allow_html=True)
         
@@ -370,7 +370,7 @@ with tabs[2]:
                     meter_placeholder.pyplot(m.draw_meter(0.35,-0.19))
 
             with col7:
-                image = Image.open('/Users/sahanamanjunath/Downloads/aqi_table2.jpg')
+                image = Image.open('aqi_table2.jpg')
                 st.image(image,width=350)
             st.markdown('<p>To learn more about the pollutants, please visit this <a href="https://www.epa.gov/air-quality-management-process/managing-air-quality-air-pollutant-types#:~:text=They%20are%20particulate%20matter%20(often,environment%2C%20and%20cause%20property%20damage." target="_blank">website</a></p>', unsafe_allow_html=True)
 
@@ -497,7 +497,7 @@ with tabs[5]:
         st.markdown("<p style='text-align:justify;'>Beyond the realm of data analytics, I find joy in the simple pleasures of life. One of my favorite pastimes is immersing myself in the world of movies. Whether it's a classic film or the latest blockbuster, I appreciate the art of storytelling and the emotions that movies evoke. It's a great way for me to unwind and draw inspiration from various narratives.In addition to being a movie buff, I have a flair for culinary adventures. Cooking is not just a hobby for me; it's a creative outlet where I experiment with flavors and techniques. Exploring diverse cuisines and crafting delicious meals bring a different kind of satisfaction to my life outside the world of data.</p>", unsafe_allow_html=True)
         st.markdown("<p style='text-align:justify;'>Feel free to explore my web app and join me on this exciting journey of data exploration and analytics.</p>", unsafe_allow_html=True)
     with col2:
-        image = Image.open('/Users/sahanamanjunath/Downloads/me2.jpeg')
+        image = Image.open('me2.jpeg')
         st.image(image,width=200)
 
 
