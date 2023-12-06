@@ -468,10 +468,10 @@ with tabs[4]:
     with st.form(key='login_form'):
         st.subheader('Login Credentials')
         username = st.text_input('**Please enter your username:**')
-        st.markdown('Default username: user')
+        st.markdown('Default username: abc')
         
         password = st.text_input('**Please enter your password:**', type='password')
-        st.markdown('Default password: password')
+        st.markdown('Default password: xyz')
         login_button = st.form_submit_button('Login')
         if login_button:
             if not username or not password:
@@ -479,11 +479,11 @@ with tabs[4]:
         if login_button:
             if username and password:
                 # Based on the credentials login is redirected
-                if not (username == 'user' and password == 'password'):
+                if not (username == 'abc' and password == 'xyz'):
                     st.error("Invalid username/ password")
-                if (username == 'user' and password == 'password'):                    
+                if (username == 'abc' and password == 'xyz'):                    
                     st.success('Login Successful!')
-                    st.markdown(f'<a href="https://aqiproject-dcbypjgtfn7bexqbfcnbin.streamlit.app"><button>Go to Researcher Account page</button> </a>', unsafe_allow_html=True)
+                    st.markdown(f'<a href="https://researcher-8pnkpqtmetov2ryxbl5hu6.streamlit.app"><button>Go to Researcher Account page</button> </a>', unsafe_allow_html=True)
    
 
 
