@@ -4,6 +4,4 @@ matplotlib
 numpy
 pandas
 plotly
-math
 geocoder
-subprocess
