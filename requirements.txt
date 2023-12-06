@@ -1,0 +1,10 @@
+pillow
+seaborn
+matplotlib
+numpy
+pandas
+plotly
+hiplot
+math
+geocoder
+subprocess
