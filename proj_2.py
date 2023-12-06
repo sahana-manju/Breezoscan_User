@@ -7,7 +7,6 @@ import pandas as pd
 import plotly.express as px
 import hiplot as hip
 from streamlit import runtime
-from streamlit_option_menu import option_menu
 from math import radians, sin, cos, sqrt, atan2
 import geocoder
 
