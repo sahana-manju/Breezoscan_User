@@ -69,7 +69,7 @@ def find_nearest_location(input_lat, input_lon, locations):
 
     return nearest_location
 
-image = Image.open('/Users/sahanamanjunath/Downloads/girl-transformed.jpg')
+image = Image.open('girl-transformed.jpg')
 st.markdown(f'<h1 style="color:#336BFF;font-size:45px;">{"BreezoScan"}</h1>', unsafe_allow_html=True)
 st.markdown('**Breathing Innovation: Empowering Lives with Precision Air Quality Analysis.**')
 #st.image(image, caption='Breathing Innovation: Empowering Lives with Precision Air Quality Analysis.')
