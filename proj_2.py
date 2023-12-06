@@ -5,7 +5,6 @@ import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
 import plotly.express as px
-import hiplot as hip
 from streamlit import runtime
 from math import radians, sin, cos, sqrt, atan2
 import geocoder
