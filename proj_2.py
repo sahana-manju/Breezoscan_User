@@ -142,7 +142,7 @@ with tabs[1]:
 
 
         user_ip = get_user_ip()
-
+        st.markdown(user_ip)
         g = geocoder.ip(user_ip)
         #g = geocoder.ip('me')
         lat_me,lng_me=g.latlng
