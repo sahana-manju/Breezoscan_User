@@ -143,9 +143,7 @@ with tabs[1]:
 
 
         user_ip = get_user_ip()
-        ip = request.environ.get("HTTP_X_FORWARDED_FOR", request.remote_addr)
-        st.markdown(ip)
-        st.markdown(user_ip)
+        user_ip='69.176.153.184'
         g = geocoder.ip(user_ip)
         #g = geocoder.ip('me')
         lat_me,lng_me=g.latlng
