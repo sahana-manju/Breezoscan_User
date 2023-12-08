@@ -125,7 +125,7 @@ with tabs[1]:
     st.markdown("Curious about the Air Quality in your area? If yes, then go ahead and select the checkbox below and grant our website permission to access your location. If you are interested to check the Air Quality of a different region ? Then please select the 'Check Air Quality for any desired location' tab above")
    
     if st.checkbox('Allow the website to access my current location'):
-        if st.checkbox('Allow the website to access my current location'):
+        
         def get_user_ip():
             try:
                 response = requests.get("https://api64.ipify.org?format=json")
