@@ -139,6 +139,23 @@ with tabs[1]:
                     
             except Exception as e:
                 return str(e)
+        import streamlit as st
+        import requests
+        
+        def get_client_ip():
+            try:
+                # Use an external service like ipinfo.io to get the client's IP
+                response = requests.get("https://ipinfo.io")
+                ip_data = response.json()
+                return ip_data.get("ip")
+            except Exception as e:
+                st.error(f"Error retrieving IP address: {e}")
+                return None
+        
+        # Get and display the client's IP address
+        client_ip = get_client_ip()
+        if client_ip:
+            st.write(f"Client's IP Address: {client_ip}")
 
 
 
