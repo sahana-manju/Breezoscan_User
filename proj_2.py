@@ -155,16 +155,8 @@ with tabs[1]:
                 st.error(f"Error retrieving IP address: {e}")
                 return None
         
-        # Get and display the client's IP address
-        client_ip = get_client_ip()
-        if client_ip:
-            st.write(f"Client's IP Address: {client_ip}")
-
-
-
-
         user_ip = get_user_ip()
-        user_ip='69.176.153.184'
+        
         g = geocoder.ip(user_ip)
         #g = geocoder.ip('me')
         lat_me,lng_me=g.latlng
