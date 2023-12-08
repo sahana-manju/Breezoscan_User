@@ -8,6 +8,7 @@ import plotly.express as px
 from streamlit import runtime
 from math import radians, sin, cos, sqrt, atan2
 import geocoder
+import requests
 
 
 # Set page config to wide layout
