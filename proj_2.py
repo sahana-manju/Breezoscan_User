@@ -142,12 +142,15 @@ with tabs[1]:
         import streamlit as st
         import requests
         
+        import streamlit as st
+        import requests
+        
         def get_client_ip():
             try:
-                # Use an external service like ipinfo.io to get the client's IP
-                response = requests.get("https://ipinfo.io")
+                # Use httpbin's endpoint to get client's IP
+                response = requests.get("https://httpbin.org/ip")
                 ip_data = response.json()
-                return ip_data.get("ip")
+                return ip_data.get("origin")
             except Exception as e:
                 st.error(f"Error retrieving IP address: {e}")
                 return None
@@ -156,6 +159,7 @@ with tabs[1]:
         client_ip = get_client_ip()
         if client_ip:
             st.write(f"Client's IP Address: {client_ip}")
+
 
 
 
