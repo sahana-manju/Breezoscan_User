@@ -18,8 +18,8 @@ Authority to upload data into our database, contributing to the expansion of the
 
 The homepage features five tabs, each serving a specific function :
 
-About :Presents comprehensive information about the website, including explanations of jargons
-Check Air Quality for Current Location :Allows users to submit Air Quality data specific to their current region.
-Check Air Quality for Any Desired Region :Enables the users to retrieve information about the air quality in any chosen region, offering the flexibility to select both country and city.
-Check Global Air Quality Data :Provides users with a detailed overview of global Air Quality statistics.
-Researcher Login :Authorizes researchers to access the confidential account page, unlocking additional features for their use.
+* About :Presents comprehensive information about the website, including explanations of jargons.
+* Check Air Quality for Current Location :Allows users to submit Air Quality data specific to their current region.
+* Check Air Quality for Any Desired Region :Enables the users to retrieve information about the air quality in any chosen region, offering the flexibility to select both country and city.
+* Check Global Air Quality Data :Provides users with a detailed overview of global Air Quality statistics.
+* Researcher Login :Authorizes researchers to access the confidential account page, unlocking additional features for their use.
