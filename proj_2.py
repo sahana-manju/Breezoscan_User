@@ -457,6 +457,15 @@ with tabs[3]:
         df_country=df_air[df_air['Country']==column5]
         plt.figure(figsize=(20,10))
         fig=px.pie(values=df_country['AQI Value'], names=df_country['AQI Category'])
+        # Move the legend to the top-left corner
+        fig.update_layout(
+            legend=dict(
+                x=0,
+                y=1,
+                traceorder='normal',
+                orientation='v',
+            )
+        )
         st.plotly_chart(fig, theme="streamlit")
 
         
