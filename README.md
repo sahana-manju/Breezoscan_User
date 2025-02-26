@@ -1,6 +1,8 @@
 # Purpose
 This website utilizes the Global Air Quality data to furnish valuable insights for both the general public and researchers. Users have the ability to access information about the air quality in their vicinity or any chosen location. Additionally, they can explore global air quality statistics, such as identifying the most polluted countries and observing the dispersion of pollutants worldwide.
 
+App link - https://cmsefinal-jmfv3xchfgdeabujtoywg3.streamlit.app/
+
 # Navigation Guidelines
 This website caters to two distinct user categories :
 
