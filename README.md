@@ -4,12 +4,12 @@ This website utilizes the Global Air Quality data to furnish valuable insights f
 # Navigation Guidelines
 This website caters to two distinct user categories :
 
-# Air Quality Enthusiasts :
+## Air Quality Enthusiasts :
 
 Access features enabling the checking of air quality in both their local and specified regions.
 Retrieve comprehensive information on global Air Quality data.
 
-# Researchers :
+## Researchers :
 
 Mandatory authorization is required for access to the confidential account page.
 Access a dashboard offering in-depth global air quality analysis.
