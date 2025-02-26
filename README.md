@@ -1,5 +1,5 @@
 # Purpose
-This website utilizes the Global Air Quality data to furnish valuable insights for both the general public and researchers. Users have the ability to access information about the air quality in their vicinity or any chosen location. Additionally, they can explore global air quality statistics, such as identifying the most polluted countries and observing the dispersion of pollutants worldwide.
+This website uses Global Air Quality data to provide insights on pollution levels and predicts the Air Quality Index (AQI) based on contaminant information using Machine Learning models like Decision Trees, XGBoost, Random Forest, and SVC. Built with Streamlit, Seaborn, Plotly, and Matplotlib for interactive visualizations.
 
 App link - https://cmsefinal-jmfv3xchfgdeabujtoywg3.streamlit.app/
 
