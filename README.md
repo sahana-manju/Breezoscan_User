@@ -1,5 +1,5 @@
 # Purpose
-This website uses Global Air Quality data to provide insights on pollution levels and predicts the Air Quality Index (AQI) based on contaminant information using Machine Learning models like Decision Trees, XGBoost, Random Forest, and SVC. Built with Streamlit, Seaborn, Plotly, and Matplotlib for interactive visualizations.
+This website uses Global Air Quality data to provide insights on pollution levels and predicts the Air Quality Index (AQI) based on contaminant information using Machine Learning models like **Decision Trees, XGBoost, Random Forest, and SVC.** Built with **Streamlit, Seaborn, Plotly, and Matplotlib** for interactive visualizations.
 
 App link - https://cmsefinal-jmfv3xchfgdeabujtoywg3.streamlit.app/
 
