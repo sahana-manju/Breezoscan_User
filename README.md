@@ -25,3 +25,6 @@ The homepage features five tabs, each serving a specific function :
 * Check Air Quality for Any Desired Region :Enables the users to retrieve information about the air quality in any chosen region, offering the flexibility to select both country and city.
 * Check Global Air Quality Data :Provides users with a detailed overview of global Air Quality statistics.
 * Researcher Login :Authorizes researchers to access the confidential account page, unlocking additional features for their use.
+
+## Results
+SVC achieved best results compared to other models with an Accuracy of 97% and F1 Score of 96%
