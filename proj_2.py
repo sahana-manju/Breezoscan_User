@@ -536,9 +536,7 @@ with tabs[5]:
         st.markdown("<p style='text-align:justify;'>Hi everyone! I'm Sahana, a passionate individual with a keen interest in the fascinating world of data science. As a data science enthusiast, I thrive on turning raw data into meaningful insights and actionable strategies. My journey in this field has been an exciting exploration of analytics, problem-solving, and the ever-evolving landscape of data.Proficient in programming languages such as Python and R, I am always eager to embrace new technologies and methodologies to stay ahead in the dynamic field of data science.</p>", unsafe_allow_html=True)
         st.markdown("<p style='text-align:justify;'>Beyond the realm of data analytics, I find joy in the simple pleasures of life. One of my favorite pastimes is immersing myself in the world of movies. Whether it's a classic film or the latest blockbuster, I appreciate the art of storytelling and the emotions that movies evoke. It's a great way for me to unwind and draw inspiration from various narratives.In addition to being a movie buff, I have a flair for culinary adventures. Cooking is not just a hobby for me; it's a creative outlet where I experiment with flavors and techniques. Exploring diverse cuisines and crafting delicious meals bring a different kind of satisfaction to my life outside the world of data.</p>", unsafe_allow_html=True)
         st.markdown("<p style='text-align:justify;'>Feel free to explore my web app and join me on this exciting journey of data exploration and analytics.</p>", unsafe_allow_html=True)
-    with col2:
-        image = Image.open('me2.jpeg')
-        st.image(image,width=200)
+    
 
 
     
