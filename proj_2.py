@@ -159,7 +159,12 @@ with tabs[1]:
         
         g = geocoder.ip(user_ip)
         #g = geocoder.ip('me')
-        lat_me,lng_me=g.latlng
+        if g.latlng:
+            lat_me, lng_me = g.latlng
+        else:
+            # If location could not be retrieved, set to New York City's lat/lng
+            st.markdown("Could not retrieve location. Using default location (New York City)")
+            lat_me, lng_me = 40.7128, -74.0060 
         lat_data = df_air['lat'].values
         lng_data = df_air['lng'].values
         locations = list(zip(lat_data, lng_data))
